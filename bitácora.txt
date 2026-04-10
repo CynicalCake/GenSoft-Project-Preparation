@@ -1,5 +1,5 @@
 BITÁCORA
-Autor: Carlos
+Autor: Carlos Esteban Vargas Galindo
 
 [10/04/2026 - 03:02] Inicialización y dependencias
 - Se ejecutó "npm init -y" para crear el package.json.
