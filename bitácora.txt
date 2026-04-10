@@ -1,0 +1,20 @@
+BITÁCORA
+Autor: Carlos
+
+[10/04/2026 - 03:02] Inicialización y dependencias
+- Se ejecutó "npm init -y" para crear el package.json.
+- Se instalaron dependencias de desarrollo solicitadas: ESLint, Prettier, Jest, Husky.
+
+[10/04/2026 - 03:05] Configuración de control de calidad de código
+- Se crearon los archivos .prettierrc y .eslintrc.json con las reglas definidas en el requerimiento.
+
+[10/04/2026 - 03:08] Configuración de Hooks (Husky)
+- Se preparó husky para ejecutar lint-staged en el pre-commit.
+
+[10/04/2026 - 03:11] Primer intento de commit de inicialización del proyecto
+- Problema: No se detectaron tests para correr y el proyecto no puede ser subido.
+- Solución: Agregar "--passWithNoTests" al parámetro de "test" en "scripts" en package.json.
+
+[10/04/2026 - 03:16] Auditoría al proyecto (tests, lint, audit)
+- Problema: No se pudo ejecutar lint dado que no existe un archivo de configuración eslint.config.js.
+- Solución: Descargar un archivo de configuración de internet.

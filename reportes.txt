@@ -1,0 +1,17 @@
+REPORTES AUDIT (npm audit)
+
+found 0 vulnerabilities
+
+
+REPORTES LINT (npm run lint)
+
+> gensoft-project-preparation@1.0.0 lint
+> eslint .
+
+
+REPORTES TEST (npm test)
+
+> gensoft-project-preparation@1.0.0 test
+> jest --passWithNoTests
+
+No tests found, exiting with code 0
